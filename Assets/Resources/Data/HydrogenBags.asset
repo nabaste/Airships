@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c3470c8530e4a4fa326b8bcce5ad09, type: 3}
+  m_Name: HydrogenBags
+  m_EditorClassIdentifier: 
+  Name: Hydrogen-Filled Gas Bags
+  Text: "Fifteen hydrogen-filled gas bags inside the metal frame kept the R-Series
+    afloat. These gas bags were arranged from nose to the tail like a peas in a pod.
+    In total the gas bags contained 5,500,000 cubic feet of hydrogen. The largest
+    bag would fill St. Paul\u2019s dome. To protect the gas bags from rain, wind,
+    and sun non-gas-tight cloth cover was attached to the metal frame. \n"
+  Prefab: {fileID: 0}
+  image0: {fileID: 0}
+  image1: {fileID: 21300000, guid: 5f7bb3185dbdd774d8e88a4656c27089, type: 3}

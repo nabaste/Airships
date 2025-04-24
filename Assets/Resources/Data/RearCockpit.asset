@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c3470c8530e4a4fa326b8bcce5ad09, type: 3}
+  m_Name: RearCockpit
+  m_EditorClassIdentifier: 
+  Name: Rear Cockpit
+  Text: For Observation Purposes
+  Prefab: {fileID: 0}
