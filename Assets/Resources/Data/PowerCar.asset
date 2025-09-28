@@ -17,3 +17,6 @@ MonoBehaviour:
     An engine operator was in the car at all times awaiting orders sent from the
     control car by telegraph. To enter the cards the operators used an open-air ladder. '
   Prefab: {fileID: 4810159703548052018, guid: b399bc589a166ce4e81c53bb505db919, type: 3}
+  image0: {fileID: 0}
+  image1: {fileID: 0}
+  videoClip: {fileID: 32900000, guid: b08adaa0cc8d8fe4ab10f5905ce5eac8, type: 3}

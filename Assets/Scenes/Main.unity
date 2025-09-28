@@ -3702,7 +3702,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ffd1b85c1e7c38e4899367cd41742578, type: 2}
   - {fileID: 11400000, guid: 5b6c41bd0657ce744958be10dc72891a, type: 2}
   - {fileID: 11400000, guid: 2648af14784df274f81755a19f58e921, type: 2}
+  - {fileID: 11400000, guid: 1261d519eb9a1ea419373b4d7ce7ae39, type: 2}
+  - {fileID: 11400000, guid: 126a6c7ca44d8ab4398c3d29f55c94e4, type: 2}
+  - {fileID: 11400000, guid: d614394ea129e7547933ad4d787ae7d4, type: 2}
+  - {fileID: 11400000, guid: 60e7a7269bf914e40b228682e3ca01f0, type: 2}
+  - {fileID: 11400000, guid: 40530654a8e5857469ad11ab93cc99cc, type: 2}
   interactionCanvasPrefab: {fileID: 1687376926981728669, guid: fd1dc17055c404e4aaad209edf514283, type: 3}
+  videoCanvasPrefab: {fileID: 1687376926981728669, guid: 88e03e31440ee9e43a0f34d27cf1bab8, type: 3}
 --- !u!4 &548712829
 Transform:
   m_ObjectHideFlags: 0

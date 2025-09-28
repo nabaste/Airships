@@ -19,3 +19,4 @@ MonoBehaviour:
   Prefab: {fileID: 3008134580202682262, guid: b5eed21d193a1964ea1ed9bef7666252, type: 3}
   image0: {fileID: 21300000, guid: c36aff0da769cd74eb0b8cfaf0c97d14, type: 3}
   image1: {fileID: 21300000, guid: 7ba6237f654d76d4cbb9397c819937d1, type: 3}
+  videoClip: {fileID: 32900000, guid: 3dc35f363b5cf1547a5b4ab8df571201, type: 3}

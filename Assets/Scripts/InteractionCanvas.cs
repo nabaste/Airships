@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class InteractionCanvas : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class InteractionCanvas : MonoBehaviour
 
     [SerializeField] private Image image0;
     [SerializeField] private Image image1;
+    
+    [SerializeField] private VideoPlayer videoPlayer;
 
     private Canvas _canvas;
     private OVRCameraRig _cameraRig;
@@ -31,27 +34,35 @@ public class InteractionCanvas : MonoBehaviour
     {
         Billboard();
     }
-    public void SetInteractionCanvasTextAndImages(InteractionPointData interactionPointData)
+    public void SetInteractionCanvasTextAndImages(InteractionPointData interactionPointData, bool isVideoCanvas = false)
     {
         titleText.text = interactionPointData.Name;
-        descriptionText.text = interactionPointData.Text;
 
-        if (interactionPointData.image0)
+        if (isVideoCanvas)
         {
-            image0.sprite = interactionPointData.image0;
+            videoPlayer.clip = interactionPointData.videoClip;
         }
         else
         {
-            image0.color = new Vector4(1, 1, 1, 0);
-        }
+            descriptionText.text = interactionPointData.Text;
+            
+            if (interactionPointData.image0)
+            {
+                image0.sprite = interactionPointData.image0;
+            }
+            else
+            {
+                image0.color = new Vector4(1, 1, 1, 0);
+            }
 
-        if (interactionPointData.image1)
-        {
-            image1.sprite = interactionPointData.image1;
-        }
-        else
-        {
-            image1.color = new Vector4(1, 1, 1, 0);
+            if (interactionPointData.image1)
+            {
+                image1.sprite = interactionPointData.image1;
+            }
+            else
+            {
+                image1.color = new Vector4(1, 1, 1, 0);
+            }
         }
     }
     

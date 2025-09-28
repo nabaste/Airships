@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1c3470c8530e4a4fa326b8bcce5ad09, type: 3}
-  m_Name: BowMooringGear
+  m_Name: R_EngineFailure
   m_EditorClassIdentifier: 
-  Name: Bow Mooring Gear
-  Text: 'The R series airships were tethered by its nose to its mooring tower by
-    three cables: a main hauling cable and two side wires.'
+  Name: Engine Failure During Final Testing
+  Text: 
   Prefab: {fileID: 0}
-  image0: {fileID: 21300000, guid: 477fa1e78a951064db2b1b76c38780eb, type: 3}
+  image0: {fileID: 0}
   image1: {fileID: 0}
-  videoClip: {fileID: 32900000, guid: 2acb2de4a4e8c35499800fe84dc8fd7b, type: 3}
+  videoClip: {fileID: 32900000, guid: bb3ddabbeecf0b14d924cbe89b2852b6, type: 3}

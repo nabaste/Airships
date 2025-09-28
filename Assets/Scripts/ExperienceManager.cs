@@ -2,18 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Meta.XR.MRUtilityKit;
+using Unity.VisualScripting;
+using UnityEngine.Video;
 
 public class ExperienceManager : MonoBehaviour
 {
     [SerializeField] private GameObject airship;
     [SerializeField] private InteractionPointData[] interactionData;
     [SerializeField] private GameObject interactionCanvasPrefab;
+    [SerializeField] private GameObject videoCanvasPrefab;
     private Vector3 _mainAssetLocation;
     private OVRCameraRig _cameraRig;
 
     private GameObject _mainAssetInstance;
     private GameObject _interactionPrefabInstance;
     private GameObject _interactionCanvasInstance;
+    private GameObject _videoCanvasInstance;
     
     
     private const float SPAWN_DISTANCE_FROM_CAMERA = 0.75f;
@@ -54,21 +58,37 @@ public class ExperienceManager : MonoBehaviour
     public void SpawnInteraction(int index)
     {
         ClearInteractions();
-        
-        _interactionCanvasInstance = Instantiate(interactionCanvasPrefab, GetInteractionSpawnLocation(false), Quaternion.identity);
-        
+
+        if (interactionData[index].Text != "")
+        {
+            _interactionCanvasInstance = Instantiate(interactionCanvasPrefab, GetInteractionSpawnLocation(false),
+                Quaternion.identity);
+            _interactionCanvasInstance.GetComponent<InteractionCanvas>().SetInteractionCanvasTextAndImages(interactionData[index]);
+        }
+
         if (interactionData[index].Prefab)
         {
             _interactionPrefabInstance = Instantiate(interactionData[index].Prefab, GetInteractionSpawnLocation(true), Quaternion.identity);
         }
-        _interactionCanvasInstance.GetComponent<InteractionCanvas>().SetInteractionCanvasTextAndImages(interactionData[index]);
+
+        if (interactionData[index].videoClip)
+        {
+            _videoCanvasInstance = Instantiate(videoCanvasPrefab, GetInteractionSpawnLocation(true), Quaternion.identity);
+            _videoCanvasInstance.GetComponent<InteractionCanvas>().SetInteractionCanvasTextAndImages(interactionData[index], true);
+        }
+        
     }
-    private Vector3 GetInteractionSpawnLocation(bool isPrefab)
+    private Vector3 GetInteractionSpawnLocation(bool isPrefab, bool isVideo = false)
     {
         Vector3 spawnLocation = _cameraRig.centerEyeAnchor.transform.position + _cameraRig.centerEyeAnchor.transform.forward * SPAWN_DISTANCE_FROM_CAMERA;
         if (isPrefab)
         {
             spawnLocation.y = _cameraRig.centerEyeAnchor.transform.position.y * 0.5f;
+        }
+
+        if (isVideo)
+        {
+            spawnLocation.y = _cameraRig.centerEyeAnchor.transform.position.y * 0.85f;
         }
         
         return spawnLocation;
@@ -84,6 +104,11 @@ public class ExperienceManager : MonoBehaviour
         if (_interactionCanvasInstance)
         {
             Destroy(_interactionCanvasInstance);
+        }
+
+        if (_videoCanvasInstance)
+        {
+            Destroy(_videoCanvasInstance);
         }
     }
     
