@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c3470c8530e4a4fa326b8bcce5ad09, type: 3}
+  m_Name: PassengerGangway
+  m_EditorClassIdentifier: 
+  Name: Passenger Gangway
+  Text: From the mooring tower a hatch under the nose of the R series airships, connected
+    tower and airship by a gangway -flexible bridge and stairs. Passengers would
+    have to climb the stairs from ground level to the top of the mooring tower. There
+    they would cross onto the Airships with the bridge. The bridge was on wheels
+    so that the airships could swing with the wind around the tower as passengers
+    boarded.
+  Prefab: {fileID: 0}
+  image0: {fileID: 21300000, guid: fcb0bf8308eb794438d292f329452489, type: 3}
+  image1: {fileID: 21300000, guid: 419b4fbb5e5fff84ab5c7b050f353866, type: 3}

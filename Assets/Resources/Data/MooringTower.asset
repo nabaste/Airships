@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1c3470c8530e4a4fa326b8bcce5ad09, type: 3}
   m_Name: MooringTower
   m_EditorClassIdentifier: 
-  Name: Mooring Tower
+  Name: B1 - Mooring Tower
   Text: "The 200-foot-tall mooring tower could withstand a thirty-ton pull from the
     airship. The use of this tower by the British was a sharp contrast to the German
     zeppelins, which always landed on the ground.\r"
   Prefab: {fileID: 0}
   image0: {fileID: 21300000, guid: 0c2a386e568f7ab4ca630d65499fa9ef, type: 3}
   image1: {fileID: 21300000, guid: b9064f13d697e7c49a0f996a3abbc01a, type: 3}
+  videoClip: {fileID: 0}

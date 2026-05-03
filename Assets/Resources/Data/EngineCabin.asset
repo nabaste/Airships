@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c3470c8530e4a4fa326b8bcce5ad09, type: 3}
+  m_Name: EngineCabin
+  m_EditorClassIdentifier: 
+  Name: B6 - Engine Cabin
+  Text: 'Five - 650 horse power engines in external cars powered the R series airships.
+    An engine operator was in the car at all times awaiting orders sent from the
+    control car by telegraph. To enter the cards the operators used an open-air ladder. '
+  Prefab: {fileID: 4810159703548052018, guid: b399bc589a166ce4e81c53bb505db919, type: 3}
+  image0: {fileID: 0}
+  image1: {fileID: 0}
+  videoClip: {fileID: 32900000, guid: b08adaa0cc8d8fe4ab10f5905ce5eac8, type: 3}

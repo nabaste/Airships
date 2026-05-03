@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c3470c8530e4a4fa326b8bcce5ad09, type: 3}
+  m_Name: TailView
+  m_EditorClassIdentifier: 
+  Name: B10 - Tailview
+  Text: "This is newsreel footage is from the R.101 made its first flight on 14 October.
+    After a short circuit over Bedford, the course was set for London, where it passed
+    over the Palace of Westminster, St Paul\u2019s Cathedral and the City, returning
+    to Cardington after a flight lasting five hours 40 minutes. During this flight,
+    the servos were not used, there was no reported difficulty in controlling the
+    airship."
+  Prefab: {fileID: 0}
+  image0: {fileID: 0}
+  image1: {fileID: 0}
+  videoClip: {fileID: 32900000, guid: 6f00077103f570d4dbc7278689f6cae2, type: 3}

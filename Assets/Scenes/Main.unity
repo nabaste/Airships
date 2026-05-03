@@ -96,7 +96,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: b26773665593a17468d65469894f7689, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -3691,22 +3691,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   airship: {fileID: 481659510041595182, guid: b5fa28b991b2a01429379e7fd2593032, type: 3}
   interactionData:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: ffd1b85c1e7c38e4899367cd41742578, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 40530654a8e5857469ad11ab93cc99cc, type: 2}
   - {fileID: 11400000, guid: ac67cb5e7d8b15f4fa07fb9d700a53f0, type: 2}
   - {fileID: 11400000, guid: 2afaee30e395b034d9cae591d6a728fa, type: 2}
-  - {fileID: 11400000, guid: 63d2bb0907c21d94c8bce95650632991, type: 2}
-  - {fileID: 11400000, guid: 2096baa6a2f9a1b41a40e12830656785, type: 2}
-  - {fileID: 11400000, guid: 3eaa33de09463f44a8681ae29026b4d3, type: 2}
-  - {fileID: 11400000, guid: b8ec154c6c691cd48afac40cc67d6da1, type: 2}
   - {fileID: 11400000, guid: 144b42b3be4af334791dc7ac032b8593, type: 2}
-  - {fileID: 11400000, guid: 589ed65cda377e14cbf42ddb5f06ca81, type: 2}
-  - {fileID: 11400000, guid: ffd1b85c1e7c38e4899367cd41742578, type: 2}
-  - {fileID: 11400000, guid: 5b6c41bd0657ce744958be10dc72891a, type: 2}
-  - {fileID: 11400000, guid: 2648af14784df274f81755a19f58e921, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: d614394ea129e7547933ad4d787ae7d4, type: 2}
+  - {fileID: 11400000, guid: 63d2bb0907c21d94c8bce95650632991, type: 2}
+  - {fileID: 11400000, guid: 78a79426b308446468f866ba0eff54e0, type: 2}
+  - {fileID: 11400000, guid: b8ec154c6c691cd48afac40cc67d6da1, type: 2}
   - {fileID: 11400000, guid: 1261d519eb9a1ea419373b4d7ce7ae39, type: 2}
   - {fileID: 11400000, guid: 126a6c7ca44d8ab4398c3d29f55c94e4, type: 2}
-  - {fileID: 11400000, guid: d614394ea129e7547933ad4d787ae7d4, type: 2}
+  - {fileID: 0}
   - {fileID: 11400000, guid: 60e7a7269bf914e40b228682e3ca01f0, type: 2}
-  - {fileID: 11400000, guid: 40530654a8e5857469ad11ab93cc99cc, type: 2}
   interactionCanvasPrefab: {fileID: 1687376926981728669, guid: fd1dc17055c404e4aaad209edf514283, type: 3}
   videoCanvasPrefab: {fileID: 1687376926981728669, guid: 88e03e31440ee9e43a0f34d27cf1bab8, type: 3}
 --- !u!4 &548712829

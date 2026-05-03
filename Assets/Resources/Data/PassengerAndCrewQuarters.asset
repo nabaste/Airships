@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c3470c8530e4a4fa326b8bcce5ad09, type: 3}
+  m_Name: PassengerAndCrewQuarters
+  m_EditorClassIdentifier: 
+  Name: B11 - Passenger Deck & Crew Quarters
+  Text: "The passenger area included cabins, a dining area, promenade, balcony, viewing
+    deck and gallery, as well as a lounge that including a smoking room. The common
+    passenger area were modelled on the opulence of London\u2019s Savoy hotel."
+  Prefab: {fileID: 0}
+  image0: {fileID: 0}
+  image1: {fileID: 0}
+  videoClip: {fileID: 32900000, guid: 2acb2de4a4e8c35499800fe84dc8fd7b, type: 3}

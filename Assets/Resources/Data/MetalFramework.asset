@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1c3470c8530e4a4fa326b8bcce5ad09, type: 3}
   m_Name: MetalFramework
   m_EditorClassIdentifier: 
-  Name: Metal Framework
+  Name: B12 - Metal Framework
   Text: 'Elements include metal frame and crossing shear wires. The R100''s framework
     was constructed from duralumin, a type of aluminium alloy, strong enough to bear
     the weight of the Airship. '
